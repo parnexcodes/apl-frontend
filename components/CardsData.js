@@ -1,0 +1,35 @@
+export const CardsData = [
+  {
+    id: 1,
+    info: "Top Runs",
+    teamName: "Clark Kent",
+    imgUrl: "demo.png",
+    data: "114",
+  },
+  {
+    id: 2,
+    info: "Highest Runs",
+    teamName: "Clark Kent",
+    imgUrl: "demo.png",
+    data: "78",
+  },
+  {
+    id: 3,
+    info: "Most Wickets",
+    teamName: "Clark Kent",
+    imgUrl: "demo.png",
+    data: "23",
+  },
+  {
+    id: 4,
+    info: "Highest Wicket",
+    teamName: "Clark Kent",
+    imgUrl: "demo.png",
+    data: "5",
+  },
+  // { id: 6, title: 'CARD 6', content: 'Wade Wilson', imgUrl: 'https://unsplash.it/200/199' },
+  // { id: 7, title: 'CARD 7', content: 'Peter Quill', imgUrl: 'https://unsplash.it/199/199' },
+  // { id: 8, title: 'CARD 8', content: 'Steven Rogers', imgUrl: 'https://unsplash.it/199/200' },
+  // { id: 9, title: 'CARD 9', content: 'Bruce Banner', imgUrl: 'https://unsplash.it/200/198' },
+  // { id: 10, title: 'CARD 10', content: 'Vincent Strange', imgUrl: 'https://unsplash.it/198/199' },
+];

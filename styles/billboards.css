@@ -1,0 +1,59 @@
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+.cards-container {
+    display: flex;
+    border-radius: 6px;
+    color: #333;
+    background: transparent;
+    padding: 1rem;
+    overflow-x: auto;
+    position: relative;
+}
+.cards-container::-webkit-scrollbar {
+    display: none;
+}
+.Playercard {
+    flex: 1 0 250px;
+    box-shadow: 0 1px 1rem -4px #000;
+    /* background: rgb(255, 166, 0); */
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.Playercard img {
+    width: 250px;
+    height: 250px;
+    object-fit: center;
+}
+.card:hover {
+    box-shadow: 0 4px 1rem -4px #000;
+    transform: translateY(-3px);
+}
+.card-content {
+    padding: 1rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+.card-content p{
+    padding: 1rem;
+    color: rgb(251, 242, 242);
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 625px) {
+    .container {
+        width: 100%;
+   }
+    .cards-container {
+        padding: 0.5rem;
+   }
+    .card {
+        margin: 0.5rem;
+   }
+}
