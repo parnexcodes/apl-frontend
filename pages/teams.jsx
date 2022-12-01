@@ -3,7 +3,7 @@ import React from "react";
 import Stripe from "../components/Stripe";
 import Navbar from "../Components/Navbar";
 import Heading from "../Components/Heading";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 import TeamSection from "../Components/TeamSection";
 function Gallery() {
   return (
@@ -15,7 +15,6 @@ function Gallery() {
           <Heading mainHeading="APL" subHeading="Teams" />
         </div>
         <TeamSection />
-
         <Footer />
       </div>
     </>

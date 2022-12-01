@@ -18,9 +18,9 @@ function TeamID(props) {
     <>
     <div className="min-h-screen bg-gray-900">
       <Stripe />
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="pt-28">
-        <Heading mainHeading="APL" subHeading={props.id} />
+        <Heading mainHeading="APL" subHeading={`Team ${props.id}`} />
       </div>
       <div className="flex justify-center gap-5 flex-wrap">
         {players.map((element) => {
@@ -29,7 +29,7 @@ function TeamID(props) {
               <Link href="#">
                 <img
                   class="rounded-t-lg h-64 w-64"
-                  src="demo.png"
+                  src="../demo.png"
                   alt=""
                 />
               </Link>

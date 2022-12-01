@@ -8,10 +8,10 @@ function TeamSection() {
     "Arsenic.png",
     "Beta.png",
     "Bots.png",
-    "Cloud7.png",
+    "Cloud 7.png",
     "Explorer.png",
     "Falcons.png",
-    "Fireball.png",
+    "Fire-ball.png",
     "Gamma.png",
     "Hydros.png",
     "Mappers.png",
@@ -28,7 +28,7 @@ function TeamSection() {
       <div className="flex justify-center gap-5 flex-wrap">
         {images.map((element) => {
           return (
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 hover:scale-105">
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-700/50 dark:border-gray-700 hover:scale-105 shadow-md shadow-current">
               <Link href={`/team/${element.replace(".png", "")}`}>
                 <img
                   class="rounded-t-lg h-64 w-64"

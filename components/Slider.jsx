@@ -4,7 +4,9 @@ import "react-slideshow-image/dist/styles.css";
 // import "../cssFiles/Slider.css"
 
 const Slider = () => {
+
   const images = [
+    "main-banner.jpeg",
     "angel.jpg",
     "arsenic.jpg",
     "beta.jpg",
@@ -35,7 +37,7 @@ const Slider = () => {
       >
         {images.map((element) => {
           return (
-            <div className="each-slide-effect pt-12">
+            <div className="each-slide-effect pt-2">
               <div
                 style={{
                   backgroundImage: `url(/teampics/${element})`,

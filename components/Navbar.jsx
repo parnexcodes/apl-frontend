@@ -11,9 +11,8 @@ function Navbar() {
   return (
     <nav className="NavbarItems">
       <div className=" flex justify-evenly">
-        <img className="h-10 logo_icon" src="stumps.png" />
-        <Link href={"/"} className="logo ml-4">
-          ARYA APL
+      <Link href={"/"} className="logo ml-4">
+        <img className="h-12 logo_icon" src="apl-logo.png" />        
         </Link>
       </div>
 
