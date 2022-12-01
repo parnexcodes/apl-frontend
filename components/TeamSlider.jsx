@@ -35,9 +35,9 @@ const TeamSlider = () => {
         duration={2000}
         canSwipe={true}
       >
-        {images.map((element) => {
+        {images.map((element, index) => {
           return (
-            <div className="each-slide-effect">
+            <div key={index} className="each-slide-effect">
               <div
                 style={{
                   backgroundImage: `url(/banners/${element})`,

@@ -24,9 +24,9 @@ function GalleryGrid() {
   return (
 	<>
 	<div className='flex justify-evenly flex-wrap gap-6'>
-		{images.map((element) => {
+		{images.map((element, index) => {
 			return (
-				<Image className='hover:scale-105 rounded-sm' src={`/teampics/${element}`} width={250} height={250}></Image>
+				<Image key={index} className='hover:scale-105 rounded-sm' src={`/teampics/${element}`} width={250} height={250}></Image>
 			)
 		})}		
 		</div>	

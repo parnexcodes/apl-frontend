@@ -28,9 +28,9 @@ function upcoming(props) {
           <Heading mainHeading="APL" subHeading="Upcoming Matches" />
         </div>
         <div className="flex gap-2 justify-around flex-wrap">
-        {props.data.map((element) => {
+        {props.data.map((element, index) => {
             return(
-                <div className="flex gap-2 justify-around flex-wrap">
+                <div key={index} className="flex gap-2 justify-around flex-wrap">
                 <div className="container bg-gray-700/40 w-[450px] h-96 rounded-md mt-4 shadow-md shadow-current">
                     <div className="grid grid-cols-3 p-4">
                       <div>

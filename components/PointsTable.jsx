@@ -56,7 +56,7 @@ function PointsTable(props) {
           {
             data[0].standing.map((element, index) => {
               return (
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {index+1}
                 </th>
@@ -196,7 +196,7 @@ function PointsTable(props) {
         {
             data[1].standing.map((element, index) => {
               return (
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {index+1}
                 </th>
@@ -295,7 +295,7 @@ function PointsTable(props) {
         {
             data[2].standing.map((element, index) => {
               return (
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {index+1}
                 </th>
@@ -394,7 +394,7 @@ function PointsTable(props) {
         {
             data[3].standing.map((element, index) => {
               return (
-                <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     {index+1}
                 </th>

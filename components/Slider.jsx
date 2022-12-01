@@ -35,9 +35,9 @@ const Slider = () => {
         duration={2000}
         canSwipe={true}
       >
-        {images.map((element) => {
+        {images.map((element, index) => {
           return (
-            <div className="each-slide-effect pt-2">
+            <div key={index} className="each-slide-effect pt-2">
               <div
                 style={{
                   backgroundImage: `url(/teampics/${element})`,

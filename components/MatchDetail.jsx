@@ -47,9 +47,9 @@ function MatchDetail(props) {
               </tr>
             </thead>
             <tbody>
-              {data.team_a.scorecard[0].batting.map((element) => {
+              {data.team_a.scorecard[0].batting.map((element, index) => {
                 return (
-                  <tr className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
+                  <tr key={index} className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
                     <td className="px-3 py-2 text-left">
                       <span>{element.name}</span>
                     </td>
@@ -119,9 +119,9 @@ function MatchDetail(props) {
               </tr>
             </thead>
             <tbody>
-			{data.team_a.scorecard[0].bowling.map((element) => {
+			{data.team_a.scorecard[0].bowling.map((element, index) => {
                 return (
-                  <tr className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
+                  <tr key={index} className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
                     <td className="px-3 py-2 text-left">
                       <span>{element.name}</span>
                     </td>
@@ -199,9 +199,9 @@ function MatchDetail(props) {
               </tr>
             </thead>
             <tbody>
-			{data.team_b.scorecard[0].batting.map((element) => {
+			{data.team_b.scorecard[0].batting.map((element, index) => {
                 return (
-                  <tr className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
+                  <tr key={index} className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
                     <td className="px-3 py-2 text-left">
                       <span>{element.name}</span>
                     </td>
@@ -270,9 +270,9 @@ function MatchDetail(props) {
               </tr>
             </thead>
             <tbody>
-			{data.team_b.scorecard[0].bowling.map((element) => {
+			{data.team_b.scorecard[0].bowling.map((element, index) => {
                 return (
-                  <tr className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
+                  <tr key={index} className="text-right border-b border-opacity-20 dark:border-gray-700 dark:bg-gray-800">
                     <td className="px-3 py-2 text-left">
                       <span>{element.name}</span>
                     </td>

@@ -6,29 +6,29 @@ function Billboards(props) {
   return (
     <>
       <div className="flex justify-around flex-wrap gap-4">
-        {CardsData.map((element) => {
+        {CardsData.map((element, index) => {
           return (
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 hover:scale-105">
+            <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 hover:scale-105">
               <a href="#">
-                <img class="rounded-t-lg h-64 w-64" src={"demo.png"} alt="" />
+                <img className="rounded-t-lg h-64 w-64" src={"demo.png"} alt="" />
               </a>
-              <div class="p-5">
+              <div className="p-5">
                 <a href="#">
-                  <h5 class="mb-2 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center">
+                  <h5 className="mb-2 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center">
                     {element.info}
                   </h5>
                 </a>
               </div>
               <div>
                 <a href="#">
-                  <h5 class="mb-2 text-2xl font-light tracking-tight text-gray-900 dark:text-white text-center">
+                  <h5 className="mb-2 text-2xl font-light tracking-tight text-gray-900 dark:text-white text-center">
                     {element.teamName}
                   </h5>
                 </a>
               </div>
-              <div class="p-5">
+              <div className="p-5">
                 <a href="#">
-                  <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">
+                  <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">
                     {element.data}
                   </h5>
                 </a>

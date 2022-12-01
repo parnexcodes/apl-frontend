@@ -5,10 +5,10 @@ function MatchCard(props) {
   let data = props.data;
   return (
     <>
-    {data.map((element) => {
+    {data.map((element, index) => {
         return (
             <>
-            <Link href={`/match/${element.matchID}`}>
+            <Link key={index} href={`/match/${element.matchID}`}>
             <div className="container bg-gray-700/40 w-[450px] h-96 rounded-md mt-4 shadow-md shadow-current">
             <div className="grid grid-cols-3 p-4">
               <div>
