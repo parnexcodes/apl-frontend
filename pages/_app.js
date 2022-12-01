@@ -8,7 +8,7 @@ import '../styles/Slider.css'
 import '../styles/teamSection.css'
 import '../styles/teamSlider.css'
 import '../styles/videoSection.css'
-import Navbar from '../Components/Navbar'
+import Navbar from '../components/Navbar'
 import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {

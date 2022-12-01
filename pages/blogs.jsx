@@ -1,7 +1,7 @@
 import React from 'react'
 import Stripe from '../components/Stripe';
-import Navbar from '../Components/Navbar';
-import Heading from '../Components/Heading';
+import Navbar from '../components/Navbar';
+import Heading from '../components/Heading';
 
 function blogs() {
   return (
