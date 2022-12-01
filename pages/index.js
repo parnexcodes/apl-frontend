@@ -1,12 +1,12 @@
 import React from "react";
 import Stripe from "../components/Stripe";
-import Navbar from "../Components/Navbar";
+import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
-import Heading from "../Components/Heading";
-import AplStats from "../Components/AplStats";
+import Heading from "../components/Heading";
+import AplStats from "../components/AplStats";
 import TeamSlider from "../components/TeamSlider";
 import Billboards from "../components/Billboards";
-import VideoSection from "../Components/VideoSection";
+import VideoSection from "../components/VideoSection";
 import Sponsers from "../components/Sponsers";
 import Footer from "../components/Footer";
 

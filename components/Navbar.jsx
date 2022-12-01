@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { MenuData } from "../Components/menuData";
+import { MenuData } from "../components/menuData";
 // import "../cssFiles/navbarStyles.css"
 
 function Navbar() {

@@ -1,10 +1,10 @@
 import React from "react";
 
 import Stripe from "../components/Stripe";
-import Navbar from "../Components/Navbar";
-import Heading from "../Components/Heading";
+import Navbar from "../components/Navbar";
+import Heading from "../components/Heading";
 import Footer from "../components/Footer";
-import TeamSection from "../Components/TeamSection";
+import TeamSection from "../components/TeamSection";
 function Gallery() {
   return (
     <>

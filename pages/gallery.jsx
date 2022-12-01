@@ -1,11 +1,11 @@
 import React from "react";
 
 import Stripe from "../components/Stripe";
-import Navbar from "../Components/Navbar";
-import Heading from "../Components/Heading";
-import Footer from "../Components/Footer";
-// import Billboards from '../Components/Billboards'
-import GalleryGrid from "../Components/GalleryGrid";
+import Navbar from "../components/Navbar";
+import Heading from "../components/Heading";
+import Footer from "../components/Footer";
+// import Billboards from '../components/Billboards'
+import GalleryGrid from "../components/GalleryGrid";
 function Gallery() {
   return (
     <>

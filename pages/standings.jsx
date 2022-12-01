@@ -1,9 +1,9 @@
 import React from "react";
 import Stripe from "../components/Stripe";
-import Navbar from "../Components/Navbar";
-import Heading from "../Components/Heading";
+import Navbar from "../components/Navbar";
+import Heading from "../components/Heading";
 import Footer from "../components/Footer";
-import PointsTable from "../Components/PointsTable";
+import PointsTable from "../components/PointsTable";
 
 export async function getServerSideProps(context) {
   const req = await fetch('https://apl-backend.vercel.app/api/tournament/standings')

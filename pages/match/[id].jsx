@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import MatchDetail from '../../components/MatchDetail'
 import Stripe from '../../components/Stripe'
-import Navbar from '../../Components/Navbar'
-import Heading from '../../Components/Heading'
+import Navbar from '../../components/Navbar'
+import Heading from '../../components/Heading'
 import Footer from '../../components/Footer'
 
 export async function getServerSideProps({ query }) {
